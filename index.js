@@ -21,7 +21,7 @@ export default function solution(content) {
   const calcMale = Math.round((malePassenger.length/result1.length) * 100);
   const calcFemale = Math.round((femalePassenger.length/result1.length) * 100);
 
-  console.log(`соотношение пассажиров мужчин и : ${calcMale} к ${calcFemale}`);
+  console.log(`соотношение пассажиров мужчин и женщин: ${calcMale} к ${calcFemale}`);
 
   //step4
   const survived = result1.filter((q) => q[2] === '1');
